@@ -1,0 +1,94 @@
+{
+  "posts": [
+    {
+      "id": "li-immutable",
+      "platform": "linkedin",
+      "time": "2026-11-01 09:00",
+      "file": "CJD_LinkedIn_immutable.png",
+      "caption": "Why is String immutable in Java? 🤔\n\nMost developers answer \"security\" and stop there. That's only 1 of the 4 reasons interviewers expect:\n\n✅ String Pool: literals are shared safely\n✅ Security: paths, URLs and credentials can't be swapped\n✅ Cached hashCode: the perfect HashMap key\n✅ Thread safety: share across threads without locks\n\nBonus: because String is immutable, s += x inside a loop creates a new object every time. Use StringBuilder instead.\n\n💬 Quick question: can you break String immutability using reflection? Should you?\n\nSave this for your next interview 📌 and follow Creative Java Developers for daily Java interview prep.\n\n#Java #JavaDeveloper #CodingInterview #InterviewPreparation #SoftwareEngineering #CreativeJavaDevelopers",
+      "alt": "Java interview infographic by Creative Java Developers"
+    },
+    {
+      "id": "li-equals",
+      "platform": "linkedin",
+      "time": "2026-11-01 11:00",
+      "file": "CJD_LinkedIn_equals.png",
+      "caption": "== vs equals() in Java: the classic interview trap ⚠️\n\nnew String(\"CJD\") == new String(\"CJD\") → false\n\"CJD\" == \"CJD\" → true\n\nSame text, different answers. Why?\n\n🔹 == compares references (same object?)\n🔹 equals() compares content (same value?)\n🔹 String literals come from the String Pool, so == \"works\" by accident\n\n✅ Use equals() for objects\n✅ Use Objects.equals() for null safety\n✅ Override hashCode() whenever you override equals()\n\n💬 What does Integer x = 128, y = 128; x == y print? Drop your answer below 👇\n\n#Java #JavaInterview #CoreJava #JavaDeveloper #CodingTips #CreativeJavaDevelopers",
+      "alt": "Java interview infographic by Creative Java Developers"
+    },
+    {
+      "id": "li-builder",
+      "platform": "linkedin",
+      "time": "2026-11-01 17:00",
+      "file": "CJD_LinkedIn_builder.png",
+      "caption": "String vs StringBuilder vs StringBuffer: pick the wrong one and your loop gets slow 🐢\n\n🔸 String: immutable, a new object on every change\n🔸 StringBuilder: mutable, fastest, not thread-safe\n🔸 StringBuffer: mutable, thread-safe (synchronized), slower\n\nA 10,000-iteration loop with s += i creates 10,000 throwaway Strings. One StringBuilder does it with a single buffer.\n\n➡️ Fixed text → String\n➡️ Building text → StringBuilder\n➡️ Shared across threads → StringBuffer\n\n💬 Why is a + b + c on one line fine, but s += x in a loop isn't?\n\n#Java #Performance #JavaDeveloper #CodingInterview #CleanCode #CreativeJavaDevelopers",
+      "alt": "Java interview infographic by Creative Java Developers"
+    },
+    {
+      "id": "li-pool",
+      "platform": "linkedin",
+      "time": "2026-11-01 19:00",
+      "file": "CJD_LinkedIn_pool.png",
+      "caption": "String Pool & intern(): how Java saves memory 🧠\n\nWrite \"CJD\" 1,000 times in your code and Java stores it only once.\n\n🔹 String literals go to the String Pool (in the heap since Java 7)\n🔹 new String(\"CJD\") always creates a separate object\n🔹 intern() returns the pooled copy\n\n✅ Use intern() for heavily repeated runtime values (city, status, country codes)\n❌ Don't use it just to make == work. Use equals().\n\n💬 Interview classic: how many objects does new String(\"CJD\") create, 1 or 2?\n\nFollow Creative Java Developers for daily Java interview prep ☕\n\n#Java #JVM #MemoryManagement #JavaInterview #CoreJava #CreativeJavaDevelopers",
+      "alt": "Java interview infographic by Creative Java Developers"
+    },
+    {
+      "id": "ig-reel1",
+      "platform": "instagram",
+      "time": "2026-11-01 13:00",
+      "file": "reel1_1080.mp4",
+      "cover": "reel1_cover.jpg",
+      "caption": "String vs StringBuilder ☕ which one should you use in a loop?\n\nFollow @creativejavadevelopers for daily Java interview prep 🚀\n\n#java #javadeveloper #codinginterview #learnjava #programming"
+    },
+    {
+      "id": "yt-short1",
+      "platform": "youtube",
+      "short": true,
+      "time": "2026-11-01 13:00",
+      "file": "reel1_4K.mp4",
+      "title": "String vs StringBuilder in Java ☕ #Shorts",
+      "description": "Which one should you use in a loop? Full explanation in 60 seconds.\n\n#java #javainterview #shorts",
+      "tags": [
+        "java",
+        "stringbuilder",
+        "java interview",
+        "shorts"
+      ]
+    },
+    {
+      "id": "yt-video",
+      "platform": "youtube",
+      "time": "2026-11-01 18:00",
+      "file": "video_4K.mp4",
+      "thumbnail": "video_thumb.png",
+      "title": "String vs StringBuilder vs StringBuffer in Java (Explained in 2 Minutes)",
+      "description": "Full description here…",
+      "tags": [
+        "java",
+        "stringbuilder",
+        "stringbuffer"
+      ]
+    },
+    {
+      "id": "ig-reel2",
+      "platform": "instagram",
+      "time": "2026-11-01 19:00",
+      "file": "reel2_1080.mp4",
+      "cover": "reel2_cover.jpg",
+      "caption": "String vs StringBuilder ☕ which one should you use in a loop?\n\nFollow @creativejavadevelopers for daily Java interview prep 🚀\n\n#java #javadeveloper #codinginterview #learnjava #programming"
+    },
+    {
+      "id": "yt-short2",
+      "platform": "youtube",
+      "short": true,
+      "time": "2026-11-01 19:00",
+      "file": "reel2_4K.mp4",
+      "title": "Java String Pool explained ☕ #Shorts",
+      "description": "#java #shorts",
+      "tags": [
+        "java",
+        "string pool"
+      ]
+    }
+  ]
+}
