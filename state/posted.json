@@ -1,1 +1,10 @@
-{"posted": {}, "failed": {}, "manual": {}}
+{
+ "posted": {
+  "queue-test/yt-test": {
+   "at": "2026-11-01T16:16+05:30",
+   "link": "https://youtu.be/uMqlsSS-uHo"
+  }
+ },
+ "failed": {},
+ "manual": {}
+}
