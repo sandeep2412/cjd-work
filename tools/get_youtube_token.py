@@ -8,6 +8,9 @@ Copy the 3 printed values into GitHub secrets. Then DELETE client_secret.json fr
 """
 import json, pathlib
 from google_auth_oauthlib.flow import InstalledAppFlow
+try:  # use the Windows certificate store (needed when antivirus scans HTTPS, e.g. Avast)
+    import truststore; truststore.inject_into_ssl()
+except ImportError: pass
 
 SCOPES = ["https://www.googleapis.com/auth/youtube.upload", "https://www.googleapis.com/auth/youtube"]
 here = pathlib.Path(__file__).parent

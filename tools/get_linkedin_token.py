@@ -8,6 +8,9 @@ Prints the secrets to add to GitHub, plus the IDs of the company pages you admin
 Re-run this about once a year (when the refresh token expires).
 """
 import http.server, secrets, urllib.parse, webbrowser, requests
+try:  # use the Windows certificate store (needed when antivirus scans HTTPS, e.g. Avast)
+    import truststore; truststore.inject_into_ssl()
+except ImportError: pass
 
 PORT, VERSION = 8765, "202606"
 REDIRECT = f"http://localhost:{PORT}/callback"

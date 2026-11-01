@@ -6,6 +6,9 @@ Graph API Explorer with these permissions:
   python get_meta_token.py
 """
 import requests
+try:  # use the Windows certificate store (needed when antivirus scans HTTPS, e.g. Avast)
+    import truststore; truststore.inject_into_ssl()
+except ImportError: pass
 
 V = "v23.0"
 G = f"https://graph.facebook.com/{V}"
