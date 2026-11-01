@@ -3,6 +3,26 @@
   "queue-test/yt-test": {
    "at": "2026-11-01T16:16+05:30",
    "link": "https://youtu.be/uMqlsSS-uHo"
+  },
+  "queue-2026-11-01-video/yt-video-sb": {
+   "at": "2026-11-01T17:08+05:30",
+   "link": "https://youtu.be/FJDEGeZPzKo"
+  },
+  "queue-2026-11-01-reels/ig-reel-hi": {
+   "at": "2026-11-01T17:09+05:30",
+   "link": "https://www.instagram.com/reel/DfMpNvFAvc5/"
+  },
+  "queue-2026-11-01-reels/yt-short-hi": {
+   "at": "2026-11-01T17:09+05:30",
+   "link": "https://youtu.be/XLxe-jnXKfo"
+  },
+  "queue-2026-11-01-reels/ig-reel-en": {
+   "at": "2026-11-01T17:10+05:30",
+   "link": "https://www.instagram.com/reel/DfMpVGUANmw/"
+  },
+  "queue-2026-11-01-reels/yt-short-en": {
+   "at": "2026-11-01T17:10+05:30",
+   "link": "https://youtu.be/ADqTKNAAIkI"
   }
  },
  "failed": {},
