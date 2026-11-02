@@ -3,7 +3,9 @@ name: CJD Autopost
 on:
   schedule:
     - cron: "*/15 * * * *"        # every 15 minutes (GitHub may start a few minutes late)
-  workflow_dispatch:
+  release:
+    types: [published]            # run as soon as a queue is approved (draft -> Publish release)
+  workflow_dispatch:                # also called every 15 min by cron-job.org, since GitHub's schedule can lag for hours
     inputs:
       mode:
         description: "post = post what is due | check = test logins | dry-run = show what would post"
