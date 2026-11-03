@@ -43,6 +43,14 @@
   "queue-2026-11-02/yt-short-en": {
    "at": "2026-11-02T19:02+05:30",
    "link": "https://youtu.be/98Cz8SzSaGM"
+  },
+  "queue-2026-11-03/ig-reel-hi": {
+   "at": "2026-11-03T13:01+05:30",
+   "link": "https://www.instagram.com/reel/DfRWcihgEZ9/"
+  },
+  "queue-2026-11-03/yt-short-hi": {
+   "at": "2026-11-03T13:01+05:30",
+   "link": "https://youtu.be/6qrnDRDlkEc"
   }
  },
  "failed": {},
