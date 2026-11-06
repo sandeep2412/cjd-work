@@ -115,6 +115,14 @@
   "queue-2026-11-06/yt-video": {
    "at": "2026-11-06T18:01+05:30",
    "link": "https://youtu.be/hrxfQpO_WwM"
+  },
+  "queue-2026-11-06/ig-reel-en": {
+   "at": "2026-11-06T19:01+05:30",
+   "link": "https://www.instagram.com/reel/DfZuCEDlCmB/"
+  },
+  "queue-2026-11-06/yt-short-en": {
+   "at": "2026-11-06T19:01+05:30",
+   "link": "https://youtu.be/T8zZMS4uVE0"
   }
  },
  "failed": {},
@@ -175,6 +183,9 @@
   },
   "queue-2026-11-06/li-3": {
    "at": "2026-11-06T17:01+05:30"
+  },
+  "queue-2026-11-06/li-4": {
+   "at": "2026-11-06T19:01+05:30"
   }
  }
 }
