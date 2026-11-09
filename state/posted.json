@@ -151,7 +151,7 @@
  },
  "failed": {
   "queue-2026-11-09/ig-reel-hi": {
-   "tries": 1,
+   "tries": 2,
    "error": "Instagram could not process the file (status ERROR). Reels must be 1080x1920 H.264 MP4, 3s-15min."
   }
  },
