@@ -147,6 +147,26 @@
   "queue-2026-11-09/yt-short-hi": {
    "at": "2026-11-09T13:02+05:30",
    "link": "https://youtu.be/0bz6tjbigjg"
+  },
+  "queue-2026-11-08/ig-reel-hi": {
+   "at": "2026-11-09T17:14+05:30",
+   "link": "https://www.instagram.com/reel/DfhQIXsDU7Y/"
+  },
+  "queue-2026-11-08/yt-short-hi": {
+   "at": "2026-11-09T17:14+05:30",
+   "link": "https://youtu.be/IJQs7AwNbLo"
+  },
+  "queue-2026-11-08/yt-video": {
+   "at": "2026-11-09T17:14+05:30",
+   "link": "https://youtu.be/JOcbaOw-ozk"
+  },
+  "queue-2026-11-08/ig-reel-en": {
+   "at": "2026-11-09T17:15+05:30",
+   "link": "https://www.instagram.com/reel/DfhQQATAVXk/"
+  },
+  "queue-2026-11-08/yt-short-en": {
+   "at": "2026-11-09T17:15+05:30",
+   "link": "https://youtu.be/TOGBxt-PqFQ"
   }
  },
  "failed": {
@@ -236,6 +256,18 @@
   },
   "queue-2026-11-09/li-3": {
    "at": "2026-11-09T17:00+05:30"
+  },
+  "queue-2026-11-08/li-1": {
+   "at": "2026-11-09T17:13+05:30"
+  },
+  "queue-2026-11-08/li-2": {
+   "at": "2026-11-09T17:13+05:30"
+  },
+  "queue-2026-11-08/li-3": {
+   "at": "2026-11-09T17:13+05:30"
+  },
+  "queue-2026-11-08/li-4": {
+   "at": "2026-11-09T17:13+05:30"
   }
  }
 }
